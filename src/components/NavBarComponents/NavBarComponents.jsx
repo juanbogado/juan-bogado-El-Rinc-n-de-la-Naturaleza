@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import CartWidgetComponent from '../CartWidgetComponent/CartWidgetComponent';
 
 const NavBarComponents = () => {
   return (
@@ -22,6 +23,7 @@ const NavBarComponents = () => {
               <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
+            <CartWidgetComponent/>
         </Navbar.Collapse>
       </Container>
     </Navbar>
