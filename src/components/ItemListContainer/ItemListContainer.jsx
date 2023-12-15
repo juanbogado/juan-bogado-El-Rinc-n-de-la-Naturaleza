@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const ItemListContainer = ({products}) => {
+export const ItemListContainer = ({products}) => {
     return (
         <div
       style={{
